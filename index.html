@@ -29,6 +29,11 @@
       color: #333;
     }
 
+    h2 { 
+        color: #ccc;
+        letter-spacing: 6px;
+    }
+
     a {
       /*color: #4F80FF;*/
       color: #e81c4f;
@@ -74,8 +79,12 @@
       font-weight: 300;
     }
 
-    header a {
-      /*border: 1px solid #e81c4f;*/
+    contact {
+      text-align: center;
+    }
+
+    contact a {
+      margin-top: 50px;
       border-radius: 290486px;
       background: #1f1f1f;
       color: white;
@@ -87,11 +96,23 @@
       text-decoration: none;
       transition: none 200ms ease-out;
       transition-property: color, background;
+      align: center;
     }
 
-    header a:hover {
+    contact a:hover {
       background: #FCF7BE;
       color: #1f1f1f;
+    }
+
+    main {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .about-us {
+        padding: 0px 100px 0px 100px;
+        color:#ccc;
+        font-family: Courier New, Courier, monospace;
     }
 
   </style>
@@ -99,16 +120,38 @@
 
 <body>
 
+
+
   <header id="header">
     <img id="logo" src="sun.svg" alt="Web Design in 4 minutes logo">
     <h1>Sun Analytics</h1>
-    <br><br>
-    <p>
-      <a href="mailto:patrick.carolan@gmail.com" target="_blank">☉ Hire us</a>
-    </p>
-  </header>
+    <br>
 
-  <main></main>
+  </header>
+  <br>
+  <div class="about-us">
+      We are a team of data engineers that offer radically simple solutions to big data problems.
+      We deliver solutions not unnecessary infrastructure. We take on projects and deliver maintainable solutions efficiently and reliably. 
+   </div>
+
+
+  <main>
+    <h2>Data Integration</h2>
+    <h2>Machine Learning, Ai</h2>
+    <h2>Spark, Dataflow, Hadoop</h2>
+    <h2>Azure, Google Cloud, AWS</h2>
+    <h2>Custom Modeling</h2>
+    <h2>Tableau, Looker, D3</h2>
+    <h2>Data Warehousing</h2>
+    <h2>IoT</h2>
+    <h2>ETL</h2>
+  </main>
+
+  <contact>
+    <p>
+      <a href="pat@firstanalytics.io" target="_blank">☉ Email us</a>
+    </p>
+    </contact>
 
 </body>
 
