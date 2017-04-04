@@ -11,6 +11,22 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <style>
+
+        @font-face {
+            font-family: DDCHardware-Compressed;
+            src: url("DDCHardware-Compressed.otf") format("opentype");
+        }
+
+        @font-face {
+            font-family: DDCHardware-Condensed;
+            src: url("DDCHardware-Condensed.otf") format("opentype");
+        }
+
+        @font-face {
+            font-family: DDCHardware-Regular;
+            src: url("DDCHardware-Regular.otf") format("opentype");
+        }
+
         body {
             background: #191919;
             margin: 0 auto;
@@ -22,7 +38,7 @@
         
         h1,
         h2 {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-family: DDCHardware-Compressed, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             letter-spacing: 6px;
             margin-top: 1em;
             color: #333;
@@ -30,11 +46,9 @@
         }
         
         h2 {
-            font-family: 'Roboto', sans-serif;
-            font-size: 1.2em;
+            font-size: 1.5em;
             color: #ccc;
             letter-spacing: 1px;
-            font-family: Courier New, Courier, monospace;
         }
         
         a {
@@ -71,7 +85,7 @@
             background: #1f1f1f;
             color: white;
             font-size: 1.1em;
-            font-family: Courier New, Courier, monospace;
+            font-family: DDCHardware-Condensed, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             letter-spacing: 0.2em;
             padding: 1em 2em;
             text-transform: uppercase;
@@ -92,11 +106,14 @@
         }
         
         .about-us {
+            background: #1F1F1F;
             font-size: 1.2em;
-            padding: 0px 100px 0px 100px;
+            padding: 15px;
             color: #ccc;
             line-height: 2em;
-            font-family: Courier New, Courier, monospace;
+            letter-spacing: .1em;
+            font-family: Roboto, Courier, monospace;
+
         }
     </style>
 
@@ -122,8 +139,6 @@
 
 <body>
 
-
-
     <header id="header">
         <img id="logo" src="sun.svg" alt="Web Design in 4 minutes logo">
         <h1>Data Engineers</h1>
@@ -141,10 +156,10 @@
         <h2>Data Integration</h2>
         <h2>Spark, Dataflow, Hadoop</h2>
         <h2>Azure, Google Cloud, AWS</h2>
-        <h2>Machine Learning</h2>
-        <h2>Custom Modeling</h2>
         <h2>Tableau, Looker, D3</h2>
         <h2>Data Warehousing</h2>
+        <h2>Machine Learning</h2>
+        <h2>Custom Modeling</h2>
         <h2>API Services</h2>
         <h2>IoT</h2>
         <h2>ETL</h2>
