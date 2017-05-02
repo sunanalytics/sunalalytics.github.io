@@ -1,0 +1,110 @@
+@font-face {
+    font-family: DDCHardware-Compressed;
+    src: url("fonts/DDCHardware-Compressed.otf") format("opentype");
+}
+
+@font-face {
+    font-family: DDCHardware-Condensed;
+    src: url("fonts/DDCHardware-Condensed.otf") format("opentype");
+}
+
+@font-face {
+    font-family: DDCHardware-Regular;
+    src: url("fonts/DDCHardware-Regular.otf") format("opentype");
+}
+
+body {
+    background-image: url("mosaic.png");
+    /*background: #191919;*/
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+}
+
+h1,
+h2 {
+    font-family: DDCHardware-Compressed, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 6px;
+    margin-top: 1em;
+    color: #ccc;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #ccc;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #e81c4f;
+}
+
+header {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    text-align: center;
+}
+
+header img {
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+}
+
+header h1 {
+    color: lightyellow;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+contact {
+    text-align: center;
+}
+
+contact a {
+    margin-top: 50px;
+    border-radius: 290486px;
+    background: #1f1f1f;
+    color: white;
+    font-size: 1.1em;
+    font-family: DDCHardware-Condensed, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+    align: center;
+    
+}
+
+contact a:hover {
+    /*background: #FCF7BE;*/
+    /*color: #1f1f1f;*/
+    box-shadow: 6px 6px 0px #bcbcbc;
+}
+
+main {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-us {
+    background: #1F1F1F;
+    font-size: 1.2em;
+    padding: 15px;
+    color: #ccc;
+    line-height: 2em;
+    letter-spacing: .08em;
+    font-family: Roboto, Courier, monospace;
+}
+
+.client-logo {
+    margin: 20px;
+    box-shadow: 6px 6px 0px #bcbcbc;
+}
